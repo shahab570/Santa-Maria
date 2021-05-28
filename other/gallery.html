@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Grid Website</title>
+		<script src="https://kit.fontawesome.com/1795da4c28.js" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" href="../style.css" />
+		<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+	</head>
+
+	<body>
+		<!-- Header Secation  -->
+		<section id="header">
+			<div class="container">
+				<input type="checkbox" id="check" />
+				<label for="check">
+					<div class="wrapbtn">
+						<i class="fas fa-bars" id="btn"></i>
+					</div>
+
+					<i class="fas fa-times" id="cancel"></i>
+				</label>
+				<div class="sidebar">
+					<header>
+						Main Menu
+					</header>
+					<ul>
+						<li>
+							<a href="index.html"><i class="fas fa-home"></i>Home</a>
+						</li>
+						<li>
+							<a href="index.html"><i class="fas fa-user-friends"></i>About Us</a>
+						</li>
+						<li>
+							<a href="index.html"><i class="fas fa-bullseye"></i>Features</a>
+						</li>
+						<li>
+							<a href="index.html"><i class="fas fa-book-reader"></i>Messagge </a>
+							<ul>
+								<li><a href="#">Beginners Courses</a></li>
+								<li><a href="#">Beginners Courses</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="index.html"> <i class="fas fa-hands-helping"></i>Facilities</a>
+							<ul>
+								<li><a href="#">Computer Lab</a></li>
+								<li><a href="#">GYM</a></li>
+
+								<li><a href="#">Playground</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="index.html"> <i class="fas fa-images"></i>Gallery</a>
+						</li>
+						<li>
+							<a href="index.html"><i class="fas fa-people-arrows"></i>Teachers</a>
+						</li>
+						<li>
+							<a href="index.html"><i class="fas fa-address-card"></i>Contact Us</a>
+						</li>
+					</ul>
+				</div>
+
+				<img src="image/logo.png" alt="" class="logo" />
+			</div>
+			<div class="header-text">
+				<h1>Education For The Future</h1>
+				<p>We build Prosperity,trust and Innovation</p>
+				<a href="#" class="btn">Read More</a>
+			</div>
+		</section>
+
+		<section id="gallery">
+			<div class="ghead">
+				<h1>Our Gallery</h1>
+				<p id="gp">---Moments and pride</p>
+			</div>
+			<div class="image-gallery">
+				<a href="person/1.jpg" class="img1">
+					<i class="fas fa-expand"></i>
+				</a>
+
+				<a href="person/2.jpg" class="img2">
+					<i class="fas fa-expand"></i>
+				</a>
+
+				<a href="person/3.jpg" class="img3">
+					<i class="fas fa-expand"></i>
+				</a>
+
+				<a href="person/4.jpg" class="img4">
+					<i class="fas fa-expand"></i>
+				</a>
+
+				<a href="person/5.jpg" class="img5">
+					<i class="fas fa-expand"></i>
+				</a>
+
+				<a href="person/6.jpg" class="img6">
+					<i class="fas fa-expand"></i>
+				</a>
+
+				<a href="person/7.jpg" class="img7">
+					<i class="fas fa-expand"></i>
+				</a>
+
+				<a href="person/8.jpg" class="img8">
+					<i class="fas fa-expand"></i>
+				</a>
+
+				<a href="person/9.jpg" class="img9">
+					<i class="fas fa-expand"></i>
+				</a>
+
+				<a href="person/10.jpg" class="img10">
+					<i class="fas fa-expand"></i>
+				</a>
+			</div>
+		</section>
+
+		<!--Foooter section-->
+
+		<section id="footer">
+			<hr />
+			<div class="container footer-row">
+				<div class="footer-left-col">
+					<div class="footer-links">
+						<div class="link-title">
+							<h4>Product</h4>
+							<small>Our Plan</small><br />
+							<small>Free trial</small>
+						</div>
+						<div class="link-title">
+							<h4>Support</h4>
+							<small>Our Plan</small><br />
+							<small>Free trial</small>
+						</div>
+						<div class="link-title">
+							<h4>Feedback</h4>
+							<small>Our Plan</small><br />
+							<small>Free trial</small>
+						</div>
+					</div>
+				</div>
+				<div class="footer-right-col">
+					<div class="footer-info">
+						<div class="copyright-text">
+							<small> support@shahab.com </small><br />
+							<small>copyright 2020</small>
+						</div>
+						<div class="footer-logo">
+							<img src="image/logo.png" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Social Icons -->
+
+		<div class="social-icons">
+			<img src="image/facebook.png" alt="" />
+			<img src="image/twitter.png" alt="" />
+			<img src="image/instagram.png" alt="" />
+			<img src="image/linkedin.png" alt="" />
+		</div>
+
+		<script>
+			var scroll = new SmoothScroll('a[href*="#"]', {
+				speed: 500,
+				speedAsDuration: true,
+			});
+		</script>
+
+		<script src="test.js"></script>
+	</body>
+</html>
